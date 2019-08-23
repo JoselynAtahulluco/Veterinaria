@@ -1,0 +1,496 @@
+
+
+#txtDatos
+{
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+	font-size: 15px;
+	float: left;
+	margin-left: 6.5%;
+}
+
+
+
+
+
+
+
+
+
+
+.imgTxtCompartir
+{
+	
+	padding-left: -20px;
+}
+
+
+/*VISION Y MISION*/
+#vs
+{
+	width: 100%;
+	height: 1100px;
+	background-image: url(../images/fiestadiurna1.jpg);
+}
+
+#acercaNosotros
+{
+	width: 50%;
+}
+
+#vs .conten
+{
+	margin-top: 3%;
+	width: 100%;
+	height: 450px;
+	background-color:#EDEDF0;
+	
+}
+
+#vs .img
+{
+	float: left;
+	width: 40%;
+	padding-top: 1.5%;
+	padding-left: 8%;
+	height: 95.5%;
+	background-color: #B1B1B1;
+}
+
+#vs .txt
+{
+	float: right;
+	width: 40%;
+	padding-top: 3%;
+	padding-right: 8%;
+}
+
+
+/*PRODUCTOS DESTACADOS*/
+
+
+/*MARCAS*/
+#marcas
+{
+	width: 100%;
+	height: 2000px;
+/*	background-image: url(../images/fiestadiurna1.jpg);*/
+}
+.entradaMarcas
+{
+	width: 98%;
+	height: 700px;
+	margin-left: auto;
+	margin-right: auto;
+	background-image: url(../images/marcas/fondo2.jpg);
+	background-size: cover;
+	margin-top: 15px;
+}
+
+.entradaMarcas .rojo
+{
+	width: 90%;
+	height: 90%;
+	margin: 3.7% 4%;
+	background-color: #D74807;
+	position: absolute;
+	
+}
+
+.entradaMarcas .rojo .textoRojo 
+{
+	color: white;
+	text-align: center;
+	font-family: "OldSansBlack";
+	padding-top: 35px;
+}
+
+.entradaMarcas .rojo .textoRojo h1
+{
+	font-size: 70px;	
+}
+
+.entradaMarcas .rojo .textoRojo .boton
+{
+	background-color: transparent;
+    color: white;
+	border:#FFFFFF solid 1px;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+}
+
+.entradaMarcas .rojo .textoRojo .boton:hover {
+    background-color: white;
+    color: black;
+	border:#000000 solid 1px;
+}
+
+#tabs
+{
+	width: 98%;
+	margin: 15px auto;
+}
+
+#tabs #Tabs1 ul li a
+{
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+	color: black;
+}
+
+#tabs #Tabs1 ul li
+{
+	border-radius: 0;
+	margin-left: 16.3%;;
+}
+
+.filaDestacados2
+{
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+	height: 380px;
+	text-align: center;
+	margin-top: 6%;	
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+	font-size: 20px;
+/*	background-color: aqua;*/
+}
+
+.filaDestaSlips0
+{
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+	height: 420px;
+	text-align: center;
+	margin-top: 2%;	
+/*	background-color: aqua;*/
+}
+
+.filaDestaSlips
+{
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+	height: 420px;
+	text-align: center;
+	margin-top: 2%;	
+/*	background-color: aqua;*/
+/*	padding-right: -1200px;*/
+}
+.filaDestacados2 img
+{
+	 border: 1px solid #F7F7F7;
+ 	 box-shadow: 1px 2px 10px #333;
+}
+
+
+
+#tabs table
+{
+	width: 98%;
+	height: 400px;;
+	margin: 15px auto;
+	text-align: center;
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+}
+
+.filaDestacados3
+{
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+	height: 950px;
+	margin-top: 6%;	
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+	font-size: 20px;
+/*	background-color: aqua;*/
+}
+
+.boxer1
+{
+	
+	float: left;
+	margin-top: 30px;
+	width: 40%;
+	margin-left: 5%;
+	font-size: 75px;
+}
+
+.boxer2
+{
+/*	background-color: aqua;*/
+	float: right;
+	margin-top: 30px;
+	width: 40%;
+	margin-right: 5%;
+	font-size: 25px;
+}
+
+#boxerRedondos
+{
+	margin: 55px auto;
+	width: 100%;
+	float: left;	
+}
+
+#boxerRedondos a
+{
+	margin: 2%;	 
+}
+
+#boxerRedondos img
+{
+	width: 340px;
+	height: 280px;
+}
+
+#boxerRedondos img:hover
+{
+	z-index:10;
+    transform: scale(1.1);
+}
+
+.conteTab3
+{
+	width: 100%;
+	margin-top: 5%;
+	font-size: 45px;
+	text-align: center;
+}
+/*DORMIR EFECTO CSS*/
+.filaDestaSlips0 .container {
+    position: relative;
+    width: 50%;
+}
+
+.filaDestaSlips0 .image {
+  opacity: 1;
+  display: block;
+  width: 50%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.filaDestaSlips0 .middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%)
+}
+
+.filaDestaSlips0 .container:hover .image {
+  opacity: 0.3;
+}
+
+.filaDestaSlips0 .container:hover .middle {
+  opacity: 1;
+}
+
+.filaDestaSlips0 .text {
+  background-color: #4CAF50;
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px;
+}
+
+
+
+/*SLIPS2*/
+
+.filaDestaSlips .container {
+  position: relative;
+  width: 150%;
+}
+
+.filaDestaSlips .image {
+  display: block;
+  width: 60%;
+  height: auto;
+}
+
+.filaDestaSlips .overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #BACEF9;
+  overflow: hidden;
+  width: 60%;
+  height: 0;
+  transition: .5s ease;
+}
+
+.filaDestaSlips .container:hover .overlay {
+  height: 100%;
+}
+
+.filaDestaSlips .text {
+  white-space: nowrap; 
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+.filaSlips1
+{
+	float: none;
+	margin-left: 150px;
+	width: 300px;
+/*	background-color: blue;*/
+	padding-right: -300px;
+}
+
+.filaSlips2
+{
+	width: 300px;
+	float: none;
+	margin-top: -23.4%;
+	margin-left: 490px;
+	position: relative;
+	top: 0;
+	padding-right: -500px;
+/*	background-color: antiquewhite;*/
+}
+.filaSlips3
+{
+	width: 300px;
+	float: none;
+	margin-top: -23.4%;
+	margin-left: 850px;
+	padding-right: -500px;
+	position: relative;
+	top: 0;
+/*	background-color: aqua*/
+}
+/*CATALOGO*/
+#catalogo
+{
+	width: 100%;
+	height: 1300px;
+	font-size: 30px;
+	text-align: center;	
+/*	background-image: url(../images/fiestadiurna1.jpg);*/
+}
+
+
+#conteCatalogo
+{
+	
+	margin-top: -1%;
+	width: 100%;
+	height: 18%;
+	background-color: #4472A2;
+	margin-bottom: 2%;
+}
+
+#conteCatalogo img
+{
+	float: left;
+	margin: 3% 3%;
+}
+
+#conteCatalogo #parra1
+{
+	float: left;
+	color: white;
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+	text-align: left;
+	font-size: 25px;
+	margin-top: 3%;
+}
+
+#conteCatalogo #parra2
+{
+	float: left;
+	color: orange;
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+	margin-bottom: 10px;
+}
+
+#conteCatalogo input
+{
+	float: right;
+	margin: 3% 3%;
+}
+
+/*CONTACTANOS*/
+#contactanos
+{
+	width: 100%;
+	height: 1800px;
+/*	background-image: url(../images/fiestadiurna1.jpg);*/
+}
+
+#googleMaps
+{
+	margin-top: 2%;
+	margin-left: 6%;
+	float: left;
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+	font-size: 20px;
+}
+
+#cajasTexto
+{
+	width: 500px;
+	float: right;
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+	margin-right: 6%;
+	margin-top: 2%;
+}
+
+#encuesta
+{
+	background-color: lightblue;
+	width: 1000px;
+	margin-top: 3%;
+	margin-left: 180px;
+	margin-right: auto;
+	float: left;
+	text-align: center;
+	border-radius: 1%;
+}
+
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+

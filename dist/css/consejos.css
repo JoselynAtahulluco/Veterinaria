@@ -1,0 +1,194 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body
+{
+    background: url(../imagenes/huella2.jpg);
+    background-size: cover;
+    background-position:center;
+    margin: 0px;
+}
+/*******************Header*************/
+header 
+{
+	width: 100%;
+    height: 110px;
+    background-color:#efeade;
+    color: #752b1c;
+    background-position: center;
+    border-bottom: 2px #6e382b solid;
+}
+header .boton{
+    background-color:black;
+	border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+}
+.boton:hover {
+    background-color: skyblue;
+    color: black;
+}
+ul li a
+{
+	color:#752b1c;
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+	text-decoration: none;	
+}
+/******Nav1*****************/
+.nav1{
+    height: 50px; 
+    float: right;
+    padding-left: 232px;
+    
+}
+.nav1 li{
+    display: inline-flex;
+}
+/**********Nav2*************/
+.nav2{
+    height: 55px;
+    float: right;  
+    list-style: none;
+    padding-left: 240px;
+}
+.nav2 li{
+    display: inline-flex;
+}
+.nav2 li a{
+    /*quitando subrayado */
+    text-decoration: none;
+    padding: 20px 10px;
+    height: 30px;
+    transition: all .30s ease-in-out;
+}
+.nav2 li a:hover
+{
+	border-bottom: 3px solid rgb(87, 62, 231);
+}
+.nav3{
+    height: 100px;
+    float: left; 
+    padding-left: 45px;
+    padding-right: 25px;
+    padding-top: 15px;
+}
+
+/****contenedor*****/
+.contenedor
+{
+    width: 95%;
+    height: 390px;
+	margin: 15px auto;
+    float: none;
+    position: relative;
+}
+
+.contenedor img
+{
+    border: none;
+    max-width: 100%;
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.contenedor ul
+{
+    list-style: none;
+    margin-top: 5%;
+    padding: 0;    
+}
+
+.contenedor li
+{
+    float: left;
+    position: relative;
+    padding: 10px 10px 25px 10px;
+    background: #F7F7F7;
+    border: 1px solid #F7F7F7;
+    margin-left: 2%;
+    max-width: 28%;
+    min-width: 180px;	
+    box-shadow: 1px 2px 10px #333;
+/*	color: white;*/
+}
+
+
+
+ span
+{
+    padding-top: 2%;
+    font-family: 'Century Gothic';
+    font-size: 0.8em;
+    max-width: 28%;
+    min-width: 180px;
+}
+  .overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #008CBA;
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    transition: .5s ease;
+  }
+  
+  .container1:hover .overlay {
+    height: 100%;
+  }
+  
+  .text {
+    white-space: nowrap; 
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    overflow: hidden;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+  }
+
+  .enaccesorios{
+      color: #6e382b;
+      background-color: white;
+  }
+
+  #date{
+    padding-left: 72px;
+    padding-right: 72px;
+}
+
+/*****Footer****/
+footer
+{
+	background-color: #efeade;
+	width: 100%;
+	height: 150px;
+	color: white;
+    position: relative;
+    border-top: 4px #6e382b solid;
+}
+#redes
+{
+	font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+	color: black;
+	text-decoration: none;
+	float: right;
+	margin-top: 3%;
+    margin-right: 9.5%;
+    
+}

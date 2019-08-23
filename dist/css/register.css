@@ -1,0 +1,107 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body
+{
+    background: url(../imagenes/mascota.png);
+    background-size: cover;
+    background-position:center;
+    margin: 0px;
+}
+/*******************Header*************/
+header 
+{
+	width: 100%;
+    height: 110px;
+    background-color:#efeade;
+    color: #752b1c;
+    background-position: center;
+    border-bottom: 2px #6e382b solid;
+}
+header .boton{
+    background-color:black;
+	border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+}
+.boton:hover {
+    background-color: skyblue;
+    color: black;
+}
+ul li a
+{
+	color:#752b1c;
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+	text-decoration: none;	
+}
+/******Nav1*****************/
+.nav1{
+    height: 50px; 
+    float: right;
+    padding-left: 232px;
+    
+}
+.nav1 li{
+    display: inline-flex;
+}
+/**********Nav2*************/
+.nav2{
+    height: 55px;
+    float: right;  
+    list-style: none;
+    padding-left: 240px;
+}
+.nav2 li{
+    display: inline-flex;
+}
+.nav2 li a{
+    /*quitando subrayado */
+    text-decoration: none;
+    padding: 20px 10px;
+    height: 30px;
+    transition: all .30s ease-in-out;
+}
+.nav2 li a:hover
+{
+	border-bottom: 3px solid rgb(87, 62, 231);
+}
+.nav3{
+    height: 100px;
+    float: left; 
+    padding-left: 45px;
+    padding-right: 25px;
+    padding-top: 15px;
+}
+
+#date{
+    padding-left: 72px;
+    padding-right: 72px;
+}
+
+h1{
+    font:'Gill Sans MT';
+    font-weight: bold;
+    font-size: 40px;
+}
+small{
+    color:#195AE8;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+#shadow{
+    width: 900px;
+    height: 450px;
+    opacity: 0.9;
+}
